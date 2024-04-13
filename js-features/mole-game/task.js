@@ -3,7 +3,7 @@ const lost = document.getElementById('lost');
 let clickCount = 0;
 let lostCount = 0;
 
-const getHole = index => document.getElementById(hole${index});
+const getHole = index => document.getElementById(`hole${index}`);
 
 for (let i = 1; i <= 9; i++) {
     let hole = getHole(i);
